@@ -1,4 +1,22 @@
-"type": "module",
-"scripts": {
-  "dev": "node src/server.js"
+{
+  "name": "level4-week2-playlists-api",
+  "version": "1.0.0",
+  "description": "Week 2 Playlists API - In-memory phase",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "node src/server.js",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "bcryptjs": "^2.4.3"
+  },
+  "devDependencies": {
+    "vitest": "^1.5.0",
+    "supertest": "^6.3.4",
+    "nodemon": "^3.1.0"
+  }
 }
