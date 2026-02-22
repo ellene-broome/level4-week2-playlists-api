@@ -1,4 +1,4 @@
-t// src/server.js
+// src/server.js
 
 import { app } from "./app.js";
 
