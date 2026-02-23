@@ -1,4 +1,5 @@
 # Level 4 — Week 2: Playlists API
+### This README is a working outline
 
 REST API built with Express for managing playlists and songs.
 
